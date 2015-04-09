@@ -10,3 +10,49 @@ img {
   width: 100%;
   display: block;
 }
+
+.masthead {
+  background-image: url("../images/masthead-bg.png");
+  background-size: 200px auto;
+  padding-top: 1em;
+  background-repeat: repeat;
+  background-position: left top;
+  text-align: center;
+}
+
+body {
+  margin: 0em;
+  font-family: 'Dosis', sans-serif;
+}
+
+nav {
+  text-align: center;
+  overflow: hidden;
+}
+
+nav ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  float: left;
+  width:25%;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgba(81, 34, 0, 0.5);
+  padding: 0.5rem;
+  padding-left: 1em;
+  display: block;
+}
+
+nav a:hover {
+  background-color: #512200;
+}
