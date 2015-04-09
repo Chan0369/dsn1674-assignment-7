@@ -12,12 +12,19 @@ img {
 }
 
 .masthead {
-  background-image: url("../images/masthead-bg.png");
-  background-size: 200px auto;
+  background-image: url("../images/logo-left.svg"), url("../images/logo-right.svg"), url("../images/masthead-bg.png");
+  background-size: 50px auto, 50px auto, 200px auto;
   padding-top: 1em;
-  background-repeat: repeat;
-  background-position: left top;
+  background-repeat: no-repeat, no-repeat, repeat;
+  background-position: left top, right top, left top;
   text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0;
+  padding: 0em 0.5em 0.5em 0.5em;
+  color: #512200;
 }
 
 body {
