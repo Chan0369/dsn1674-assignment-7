@@ -64,19 +64,25 @@ nav a:hover {
   background-color: #512200;
 }
 
-h2 {
+.dirt {
+  position: relative;
+}
+
+.headline {
   background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.5));
   position: absolute;
   text-align: center;
   display: inline-block;
   width: 100%;
-  top: 18em;
+  bottom: 0;
+  margin: 0;
   color: white;
+  padding: 1em;
 }
 
 .btn {
   display: inline-block;
-  left: 10%;
+  left: 20%;
   width: 50%;
   bottom: 5px;
   padding: 4px;
@@ -94,7 +100,7 @@ h2 {
 
 .btn2 {
   display: inline-block;
-  left: 35%;
+  left: 20%;
   width: 50%;
   bottom: 5px;
   padding: 4px;
@@ -112,7 +118,7 @@ h2 {
 
 .btn3 {
   display: inline-block;
-  left: 35%;
+  left: 20%;
   width: 50%;
   bottom: 5px;
   padding: 4px;
@@ -130,7 +136,7 @@ h2 {
 
 .btn4 {
   display: inline-block;
-  left: 35%;
+  left: 20%;
   width: 50%;
   bottom: 5px;
   padding: 4px;
@@ -158,21 +164,25 @@ h3:hover {
 .box {
   width: 50%;
   float: left;
+  position: relative;
 }
 
 .box-2 {
   width: 50%;
   float: right;
+  position: relative;
 }
 
 .box-3 {
   width: 50%;
   float: left;
+  position: relative;
 }
 
 .box-4 {
   width: 50%;
   float: right;
+  position: relative;
 }
 
 footer {
