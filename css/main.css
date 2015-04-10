@@ -76,7 +76,61 @@ h2 {
 
 .btn {
   display: inline-block;
-  left: 20%;
+  left: 10%;
+  width: 50%;
+  bottom: 5px;
+  padding: 4px;
+  margin: 10px;
+  text-decoration: none;
+  border-radius: 15px;
+  font-size: 1.5em;
+  color: #fff;
+  background-color: #6fbf44;
+  background-image: linear-gradient(to top, #006600, #009900,#00FF00);
+  position: absolute;
+  box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.btn2 {
+  display: inline-block;
+  left: 35%;
+  width: 50%;
+  bottom: 5px;
+  padding: 4px;
+  margin: 10px;
+  text-decoration: none;
+  border-radius: 15px;
+  font-size: 1.5em;
+  color: #fff;
+  background-color: #6fbf44;
+  background-image: linear-gradient(to top, #006600, #009900,#00FF00);
+  position: absolute;
+  box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.btn3 {
+  display: inline-block;
+  left: 35%;
+  width: 50%;
+  bottom: 5px;
+  padding: 4px;
+  margin: 10px;
+  text-decoration: none;
+  border-radius: 15px;
+  font-size: 1.5em;
+  color: #fff;
+  background-color: #6fbf44;
+  background-image: linear-gradient(to top, #006600, #009900,#00FF00);
+  position: absolute;
+  box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.btn4 {
+  display: inline-block;
+  left: 35%;
   width: 50%;
   bottom: 5px;
   padding: 4px;
