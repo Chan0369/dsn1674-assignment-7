@@ -80,7 +80,11 @@ h2 {
   border-radius: 10px;
   color: #fff;
   background-color: #6FC000;
-  background-image: linear-gradient(to bottom, #388200, #214D00);
+  background-image: linear-gradient(to bottom, #388200, #6FC000);
+}
+
+a:hover {
+  color: linear-gradient (to bottom, #388200, #214D00)
 }
 
 .btn2 {
@@ -90,7 +94,7 @@ h2 {
   border-radius: 10px;
   color: #fff;
   background-color: #6FC000;
-  background-image: linear-gradient(to bottom, #388200, #214D00);
+  background-image: linear-gradient(to bottom, #388200, #6FC000);
 }
 
 .btn3 {
@@ -100,7 +104,7 @@ h2 {
   border-radius: 10px;
   color: #fff;
   background-color: #6FC000;
-  background-image: linear-gradient(to bottom, #388200, #214D00);
+  background-image: linear-gradient(to bottom, #388200, #6FC000);
 }
 
 .btn4 {
@@ -110,5 +114,38 @@ h2 {
   border-radius: 10px;
   color: #fff;
   background-color: #6FC000;
-  background-image: linear-gradient(to bottom, #388200, #214D00);
+  background-image: linear-gradient(to bottom, #388200, #6FC000);
+}
+
+.box {
+  width: 50%;
+  float: left;
+}
+
+.box-2 {
+  width: 50%;
+  float: right;
+}
+
+.box-3 {
+  width: 50%;
+  float: left;
+}
+
+.box-4 {
+  width: 50%;
+  float: right;
+}
+
+footer {
+  background-color: rgba(81, 34, 0, 0.5);
+  margin: 0;
+  width: 100;
+}
+
+.f {
+  width: 13%;
+  float: center;
+  margin: 0;
+  padding: 1em;
 }
