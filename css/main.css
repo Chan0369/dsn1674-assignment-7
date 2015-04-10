@@ -63,3 +63,22 @@ nav a {
 nav a:hover {
   background-color: #512200;
 }
+
+h2 {
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  top: 18em;
+  color: white;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #6FC000;
+  background-image: linear-gradient(to bottom, #388200, #214D00);
+}
