@@ -65,6 +65,7 @@ nav a:hover {
 }
 
 h2 {
+  background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.5));
   position: absolute;
   text-align: center;
   display: inline-block;
@@ -75,12 +76,20 @@ h2 {
 
 .btn {
   display: inline-block;
-  padding: 0.5em 0.75em;
+  left: 20%;
+  width: 50%;
+  bottom: 5px;
+  padding: 4px;
+  margin: 10px;
   text-decoration: none;
-  border-radius: 10px;
+  border-radius: 15px;
+  font-size: 1.5em;
   color: #fff;
-  background-color: #6FC000;
-  background-image: linear-gradient(to bottom, #388200, #6FC000);
+  background-color: #6fbf44;
+  background-image: linear-gradient(to top, #006600, #009900,#00FF00);
+  position: absolute;
+  box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.5);
+  text-align: center;
 }
 
 a:hover {
