@@ -87,34 +87,9 @@ a:hover {
   color: linear-gradient (to bottom, #388200, #214D00)
 }
 
-.btn2 {
-  display: inline-block;
-  padding: 0.5em 0.75em;
-  text-decoration: none;
-  border-radius: 10px;
-  color: #fff;
-  background-color: #6FC000;
-  background-image: linear-gradient(to bottom, #388200, #6FC000);
-}
 
-.btn3 {
-  display: inline-block;
-  padding: 0.5em 0.75em;
-  text-decoration: none;
-  border-radius: 10px;
-  color: #fff;
-  background-color: #6FC000;
-  background-image: linear-gradient(to bottom, #388200, #6FC000);
-}
-
-.btn4 {
-  display: inline-block;
-  padding: 0.5em 0.75em;
-  text-decoration: none;
-  border-radius: 10px;
-  color: #fff;
-  background-color: #6FC000;
-  background-image: linear-gradient(to bottom, #388200, #6FC000);
+h3:hover {
+  background-image: linear-gradient(to top, #003300, #006600)
 }
 
 .box {
@@ -139,13 +114,14 @@ a:hover {
 
 footer {
   background-color: rgba(81, 34, 0, 0.5);
+  background-posotion: center 5px;
   margin: 0;
-  width: 100;
+  clear: both;
+  text-align: center;
+  padding: 10px;
 }
 
 .f {
-  width: 13%;
-  float: center;
-  margin: 0;
-  padding: 1em;
+  width: 30px;
+  z-index: 1000em;
 }
